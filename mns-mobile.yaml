@@ -2,7 +2,7 @@
 internalName: mns_keyboards
 
 displayNames:
-  mns: Mansi
+  mns: ма̄ньщи
   en: Mansi
 
 locale: mns
@@ -10,24 +10,41 @@ locale: mns
 modes:
 # mobile layouts:
   mobile-default: |
-    á š e r t y u i o p ŋ
-    a s d f g h j k l đ ŧ
-    ž z č c v b n m w
+    й ц у к е н г ш щ з х
+    ф ы в а п р о л д ж э
+    я ч с м и т ь б ю
   mobile-shift: |
-    Á Š E R T Y U I O P Ŋ
-    A S D F G H J K L Đ Ŧ
-    Ž Z Č C V B N M W
+    Й Ц У К Е Н Г Ш Щ З Х
+    Ф Ы В А П Р О Л Д Ж Э
+    Я Ч С М И Т Ь Б Ю
 
 # mobile keyboards properties:
 longpress:
-  Á: Q
-  A: Æ Ä Å
-  Č: X
-  O: Ø Ö
-  á: q
-  a: æ ä å
-  č: x
-  o: ø ö
+  А: А̄ 
+  Е: Е̄ Ё Ё̄
+  И: Ӣ 
+  Н: Ӈ
+  О: О̄ 
+  У: Ӯ
+  Ы: Ы̄ 
+  Э: Э̄
+  Ю: Ю̄
+  Я: Я̄ 
+  Ь: Ъ 
+
+  а: а̄ 
+  е: е̄ ё ё̄
+  и: ӣ 
+  н: ӈ 
+  о: о̄ 
+  р: ҏ
+  у: ӯ 
+  х: һ
+  ы: ы̄ 
+  э: э̄
+  ю: ю̄ 
+  я: я̄ 
+  ь: ъ
 
 styles:
   tablet:
