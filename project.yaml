@@ -1,4 +1,4 @@
-internalName: mns_keyboard
+internalName: mns
 
 locales:
   en:
@@ -14,7 +14,7 @@ email: feedback@divvun.no
 copyright: (c) 2017 Divvun/Giellatekno/UiT
 organisation: UiT Norgga árktalaš universitehta
 
-layouts: [mns]
+layouts: [mns-mobile, mns-mac, mns-win]
 
 version: 1.0
 build: 1
