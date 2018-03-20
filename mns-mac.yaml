@@ -3,47 +3,47 @@
 internalName: ru-t-k0-osx-extended
 
 displayNames:
-  ru: RussianWin
+  mns: MansiWin
 
-locale: ru
+locale: mns
 
 modes:
   # default
   iso-default: |
     ] 1 2 3 4 5 6 7 8 9 0 - =
-    й ц у к е н г ш щ з х ъ
+    й ц у к е н г ш щ з х ӈ
     ф ы в а п р о л д ж э \
     ё я ч с м и т ь б ю .
   # shift caps+shiftR+shiftL? caps+shiftL cmd+caps cmd+optR+optL?
   iso-shift: |
     [ ! " № ; % : ? * ( ) _ +
-    Й Ц У К Е Н Г Ш Щ З Х Ъ
+    Й Ц У К Е Н Г Ш Щ З Х Ӈ
     Ф Ы В А П Р О Л Д Ж Э /
     Ё Я Ч С М И Т Ь Б Ю ,
   # caps
   iso-caps: |
     ] 1 2 3 4 5 6 7 8 9 0 - =
-    Й Ц У К Е Н Г Ш Щ З Х Ъ
+    Й Ц У К Е Н Г Ш Щ З Х Ӈ
     Ф Ы В А П Р О Л Д Ж Э \
     Ё Я Ч С М И Т Ь Б Ю .
   # optL+caps
   iso-caps+alt: |
     ~ ! @ # $ © ^ & * ( ) – ≠
-    Ј Џ Ў Ќ † Њ Ѓ Ѕ „ ’ ” Ґ
+    Ј Џ Ў Ќ † Њ Ѓ Ѕ „ ’ ” Ъ
     d Ѕ Ћ ± √ ∞ µ Љ L » Є |
-    § Ђ X C V І ƒ M < > Ї
+    § Ђ X C V І ƒ < > Ї ,
   # opt cmd+optL+caps?
-  iso-alt: |
+  iso-alt: | 
     ` ! @ # $ © ^ & * ( ) – ≠
-    ј џ ў ќ † њ ѓ ѕ ' ‘ “ «
-    d z ћ ÷ … • ∆ љ l « є \
-    § ђ x c v і ƒ m ≤ ≥ ї
+    ј џ ӯ ќ е̄ њ ѓ ѕ ' ‘ “ ъ
+    d ы̄ ћ а̄ … • о̄ љ l « э̄ \
+    ё̄ я̄ x c v ӣ ƒ ≤ ≥ ю̄ .
   # opt+shift+cmd?+caps?
   iso-alt+shift: |
     ~ ™ § £ € ® ¬ ¶ ° { } — ≈
-    Ј Џ Ў Ќ † Њ Ѓ Ѕ „ ’ ” »
+    Ј Џ Ў Ќ † Њ Ѓ Ѕ „ ’ ” Ъ
     d Z Ћ ± √ ∞ µ Љ L » Є |
-    ± Ђ X C V І ƒ M < > Ї
+    Ё Я̄ X C V Ӣ ƒ < > Ю̄ ,
   # ctrl+opt?+caps?+shift? ctrl+cmd?+opt?+shift? ctrl+cmd?+opt?+caps? cmd+ctrlR+opt+caps+shift cmd+ctrlL+opt+caps+shift cmd+ctrl+caps+shift+optR? cmd+ctrl+caps+shift+optL? cmd+ctrl+opt+caps+shiftR? cmd+ctrl+opt+caps+shiftL?
   iso-ctrl: |
     ` 1 2 3 4 5 6 7 8 9 0 \u{1F} +
