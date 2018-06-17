@@ -1,11 +1,19 @@
 ### Generated from ru-t-k0-windows.xml on 2017-10-09 at 13:28.
-
 internalName: ru-t-k0-windows
 
 displayNames:
-  ru: Russian
+  en: Mansi
+  ru: Манси
+  mns: Манси
 
-locale: ru
+locale: mns
+
+supportedTargets: [win, x11, svg]
+
+targets:
+  win:
+    locale: mns-Cyrl
+    languageName: "Манси"
 
 modes:
   # default
@@ -32,6 +40,18 @@ modes:
     й ц у к е н г ш щ з х ъ
     ф ы в а п р о л д ж э /
     / я ч с м и т ь б ю ,
+  # " # altR+caps? ctrl+alt+caps?
+  iso-alt: |
+    ё̄ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} \u{0} ӯ \u{0} е̄ ӈ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} ы̄ \u{0}  а̄ \u{0} \u{0} о̄ \u{0} \u{0} \u{0} э̄ \u{1C}
+    \u{1C} я̄  \u{0} \u{0} \u{0} ӣ \u{0} \u{0} \u{0} ю̄ \u{0}
+  # altR+shift+caps? ctrl+alt+shift+caps?
+  iso-alt+shift: |
+    Ё̄ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} \u{0} Ӯ \u{0} Е̄ Ӈ \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+    \u{0} Ы̄ \u{0}  А̄ \u{0} \u{0} О̄ \u{0} \u{0} \u{0} Э̄ \u{1C}
+    \u{1C} Я̄  \u{0} \u{0} \u{0} Ӣ \u{0} \u{0} \u{0}  Ю̄ \u{0}
   # ctrl+caps?
   iso-ctrl: |
     \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
