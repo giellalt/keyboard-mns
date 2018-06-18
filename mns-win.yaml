@@ -1,10 +1,10 @@
 ### Generated from ru-t-k0-windows.xml on 2017-10-09 at 13:28.
-internalName: ru-t-k0-windows
+internalName: mns_ru-win
 
 displayNames:
+  mns: Манси
   en: Mansi
   ru: Манси
-  mns: Манси
 
 locale: mns
 

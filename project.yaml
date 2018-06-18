@@ -1,4 +1,4 @@
-internalName: mns
+internalName: mns_ru-win
 
 locales:
   en:
@@ -27,11 +27,13 @@ targets:
     keyAlias: sami_keyboard
 
   ios: &AppleID
-    codeSignId: "Developer ID Installer: The University of Tromso (2K5J2584NX)"
+    codeSignId: "2K5J2584NX"
     provisioningProfileId: Test
     packageId: no.uit.giella.keyboards.mns
     bundleName: *bundleName
     icon: images/mns-icon.png
+    version: "1.0.0"
+    build: "1"
 
   osx:
     <<: *AppleID
@@ -43,4 +45,4 @@ targets:
     appName: *bundleName
     version: 0.1.0
     url: "http://divvun.no"
-    uuid: "replace-with-real-uuid-one-for-each-language"
+    uuid: "CD6D800F-4265-4069-83FB-3C5979629305"

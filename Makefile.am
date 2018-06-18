@@ -6,7 +6,7 @@ EXTRA_DIST = und.timestamp
 
 KBDGEN=kbdgen
 KBDGENPATH=$(GIELLA_CORE)/$(KBDGEN)
-# RELEASE=-R
+RELEASE=-R
 
 # XML_SRC can be a language code or the full xml file name, both given
 # by the user
