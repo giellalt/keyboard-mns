@@ -1,11 +1,13 @@
 ### Generated from se-t-k0-osx.xml on 2017-05-08 at 07:51.
-internalName: mns_keyboards
+internalName: mns-mobile
 
 displayNames:
   mns: ма̄ньщи
   en: Mansi
 
 locale: mns
+
+supportedTargets: [ios, android]
 
 modes:
 # mobile layouts:

@@ -1,11 +1,14 @@
 ### Generated from ru-t-k0-osx-extended.xml on 2017-10-09 at 13:29.
-
-internalName: ru-t-k0-osx-extended
+internalName: mns-mac
 
 displayNames:
-  mns: MansiWin
+  mns: Манси
+  en: Mansi
+  ru: Манси
 
 locale: mns
+
+supportedTargets: [osx, x11, svg]
 
 modes:
   # default
