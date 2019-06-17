@@ -5,7 +5,7 @@
 
 This directory contains source files and build instructions for developing
 keyboards for the Mansi language. The data and implementations
-are licenced under __LICENCE__, and the 
+are licenced under GPL3, and the 
 licence is also detailed in the LICENCE file of this directory. The authors
 named in the AUTHORS file are available to grant other licencing choices.
 
