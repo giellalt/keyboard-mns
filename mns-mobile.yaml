@@ -2,7 +2,7 @@
 internalName: mns-mobile
 
 displayNames:
-  mns: ма̄ньщи
+  mns: Ма̄ньщи
   en: Mansi
 
 locale: mns
@@ -60,5 +60,5 @@ styles:
       backspace: [3, right, fill]
 
 strings:
-  space: gaska
-  return: linnjámolsun
+  space: хал
+  return: ёлы о̄выл
