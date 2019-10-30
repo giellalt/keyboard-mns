@@ -2,5 +2,5 @@ codeSignId: 2K5J2584NX
 provisioningProfileId: Test
 packageId: no.uit.giella.keyboards.mns
 bundleName: Mansi Keyboards
-version: 1.0.0
-build: '1'
+version: 0.1.0
+build: 1
