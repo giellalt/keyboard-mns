@@ -1,0 +1,3 @@
+packageId: no.uit.giella.keyboards.mns
+keyStore: $GTPRIV/admin/dev-accounts/dev_keys/sami_keyboard.keystore
+keyAlias: sami_keyboard

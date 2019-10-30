@@ -6,7 +6,7 @@
 This directory contains source files and build instructions for developing
 keyboards for the Mansi language. The data and implementations
 are licenced under the MIT license, and the 
-licence is also detailed in the LICENCE file of this directory. The authors
+licence is also detailed in the LICENSE file of this directory. The authors
 named in the AUTHORS file are available to grant other licencing choices.
 
 Installation and compilation, and a short note on usage, is documented in the

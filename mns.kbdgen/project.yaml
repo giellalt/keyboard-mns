@@ -1,0 +1,11 @@
+locales:
+  en:
+    name: Mansi Keyboards
+    description: Mobile OS keyboards for the Mansi language from the Divvun group at UiT.
+  nb:
+    name: Mansi tastatur
+    description: Mobiltastatur for Mansi fra Divvun-gruppa.
+author: 'The Divvun Group, UiT Norgga árktalaš universitehta'
+copyright: (c) 2017 Divvun/Giellatekno/UiT
+email: feedback@divvun.no
+organisation: UiT Norgga árktalaš universitehta
