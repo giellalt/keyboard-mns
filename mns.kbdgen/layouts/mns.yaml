@@ -2,7 +2,7 @@ displayNames:
   mns: Ма̄ньщи
   en: Mansi
 modes:
-  mobile:
+  android:
     default: |
       й ц у к е н г ш щ з х
       ф ы в а п р о л д ж э
