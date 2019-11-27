@@ -42,11 +42,9 @@ Installation
 
 INSTALL describes the GNU build system in detail, but for most users the usual:
 
-	./configure
-	
-	make
-	
-	(as root) make install
+        ./configure	
+        make
+        (as root) make install
 
 should result in a local installation and::
 
