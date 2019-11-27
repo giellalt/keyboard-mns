@@ -40,17 +40,17 @@ modes:
       \s{shift}        Ф Ы В А П Р О Л Д Ж Э  \s{shift}
       \s{spacer:0.5}     Я Ч С М И Т Ь Б Ю    \s{return:2.5}
     alt: |
-      \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 å \s{backspace:1.25}
-      \s{shift}     % # kr & * ( ) ' " ø æ \s{shift}
-      \s{spacer:0.5}  q w  x - = / ; : ! ? \s{spacer:0.5} \s{return:2}
-    alt+shift: |
-      \s{"@":0.75}  1 2 3  4 5 6 7 8 9 0 Å \s{backspace:1.25}
-      \s{shift}     % # kr & * ( ) ' " Ø Æ \s{shift}
-      \s{spacer:0.5}  Q W  X - = / ; : ! ? \s{spacer:0.5} \s{return:2}
+      \s{"@":0.75}    1 2 3  4 5 6 7 8 9 0 å \s{backspace:1.25}
+      \s{shift}       @ ы̄ ӯ ќ е̄ њ ѓ ѕ ' ‘ “ ъ
+      \s{spacer:0.5}  ё̄ я̄ ӣ а̄ < > ю̄ о̄ э̄ . \ \s{spacer:0.5} \s{return:2}
+    alt+shift: |    
+      \s{"@":0.75}    1 2 3 4 5 6 7 8 9 0 Å \s{backspace:1.25}
+      \s{shift}       % Џ Ў $ & / Ѓ Ѕ „ ’ ” Ъ #  & * ( ) ' " Ø Æ \s{shift}
+      \s{spacer:0.5}  Ё Я̄ Ӣ А̄ = \ Ю̄ ; : ! ? \s{spacer:0.5} \s{return:2}
     symbols-1: |
-      \s{spacer:0.75} 1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
-      \s{shiftSymbols} @ # kr & * ( ) ' " + • \s{shiftSymbols}
-      \s{spacer:1.5} % _ - = / ; : , . \s{spacer:0.5} \s{return:2}
+      \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
+      \s{shiftSymbols} @ # $ & * ( ) ' " + • \s{shiftSymbols}
+      \s{spacer:1.5}   % _ - = / ; : , . \s{spacer:0.5} \s{return:2}
     symbols-2: |
       \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ´ \s{backspace:1.25}
       \s{shiftSymbols} € $ £ ^ [ ] { } — ° … \s{shiftSymbols}
@@ -74,7 +74,7 @@ modes:
     alt+shift: |
       §              ! " # kr % & / ( ) = ? `  \s{backspace:1.5}
       \s{spacer:1.5} Ј Џ Ў Ќ † Њ Ѓ Ѕ „ ’ ” Ъ
-      \s{caps:1.75}  d Z Ћ ± √ ∞ µ Љ L » Є |   \s{return:1.75}
+      \s{caps:1.75}  d Ы̄ Ћ ± √ ∞ µ Љ L » Є |   \s{return:1.75}
       \s{shift:1.25} Ё Я̄ X C V Ӣ ƒ < > Ю̄ ,     \s{shift:2.25}
     symbols-1: |
       `               1 2 3 4 5 6 7 8 9 0 < >    \s{backspace:1.5}
