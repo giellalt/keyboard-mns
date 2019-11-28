@@ -4,20 +4,20 @@ displayNames:
 modes:
   android:
     default: |
-      й ц у к е н г ш щ з х
+      й ц у к е н г ӈ щ з х
       ф ы в а п р о л д э ¯
         я ч с м и т ь б ю
     shift: |
-      Й Ц У К Е Н Г Ш Щ З Х
+      Й Ц У К Е Н Г Ӈ Щ З Х
       Ф Ы В А П Р О Л Д Э ¯
         Я Ч С М И Т Ь Б Ю
   ios:
     default: |
-      й ц у к е н г ш щ з х
+      й ц у к е н г ӈ щ з х
       ф ы в а п р о л д э ¯
       \s{shift:1.25} \s{spacer:0.25} я ч с м и т ь б ю \s{spacer:0.25} \s{backspace:1.25}
     shift: |
-      Й Ц У К Е Н Г Ш Щ З Х
+      Й Ц У К Е Н Г Ӈ Щ З Х
       Ф Ы В А П Р О Л Д Э ¯
       \s{shift:1.25} \s{spacer:0.25} Я Ч С М И Т Ь Б Ю \s{spacer:0.25} \s{backspace:1.25}
     symbols-1: |
@@ -32,20 +32,20 @@ modes:
       \s{shiftSymbols} \s{spacer:0.25} . , ? ! ' \s{spacer:0.25} \s{backspace}
   ipad-9in:
     default: |
-      \s{spacer:0.5}   й ц у к е н г ш щ з х  \s{spacer:0.5}
-      \s{shift}        ф ы в а п р о л д ж э  \s{shift}
+      \s{spacer:0.5}   й ц у к е н г ӈ щ з х  \s{spacer:0.5}
+      \s{shift}        ф ы в а п р о л д э ¯  \s{shift}
       \s{spacer:0.5}     я ч с м и т ь б ю    \s{return:2.5}
     shift: |
-      \s{spacer:0.5}   Й Ц У К Е Н Г Ш Щ З Х  \s{spacer:0.5}
-      \s{shift}        Ф Ы В А П Р О Л Д Ж Э  \s{shift}
+      \s{spacer:0.5}   Й Ц У К Е Н Г Ӈ Щ З Х  \s{spacer:0.5}
+      \s{shift}        Ф Ы В А П Р О Л Д Э ¯  \s{shift}
       \s{spacer:0.5}     Я Ч С М И Т Ь Б Ю    \s{return:2.5}
     alt: |
       \s{"@":0.75}    1 2 3  4 5 6 7 8 9 0 å \s{backspace:1.25}
-      \s{shift}       @ ы̄ ӯ ќ е̄ њ ѓ ѕ ' ‘ “ ъ
+      \s{shift}       @ ы̄ ӯ ќ е̄ ш ѓ ѕ ' ‘ “ ъ
       \s{spacer:0.5}  ё̄ я̄ ӣ а̄ < > ю̄ о̄ э̄ . \ \s{spacer:0.5} \s{return:2}
     alt+shift: |    
       \s{"@":0.75}    1 2 3 4 5 6 7 8 9 0 Å \s{backspace:1.25}
-      \s{shift}       % Џ Ў $ & / Ѓ Ѕ „ ’ ” Ъ #  & * ( ) ' " Ø Æ \s{shift}
+      \s{shift}       % Џ Ў $ & Ш Ѓ Ѕ „ ’ ” Ъ #  & * ( ) ' " Ø Æ \s{shift}
       \s{spacer:0.5}  Ё Я̄ Ӣ А̄ = \ Ю̄ ; : ! ? \s{spacer:0.5} \s{return:2}
     symbols-1: |
       \s{spacer:0.75}  1 2 3 4 5 6 7 8 9 0 ` \s{backspace:1.25}
@@ -88,6 +88,7 @@ longpress:
   Е: Е̄ Ё Ё̄
   И: Ӣ
   Н: Ӈ
+  Щ: Ш
   О: О̄
   У: Ӯ
   Ы: Ы̄
@@ -99,6 +100,7 @@ longpress:
   е: е̄ ё ё̄
   и: ӣ
   н: ӈ
+  щ: ш
   о: о̄
   р: ҏ
   у: ӯ
@@ -108,6 +110,7 @@ longpress:
   ю: ю̄
   я: я̄
   ь: ъ
+
 strings:
   space: хал
   return: ёлы о̄выл
