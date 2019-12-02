@@ -1,5 +1,5 @@
 trigger:
-- master
+  - master
 
 resources:
   repositories:
@@ -14,8 +14,8 @@ jobs:
       name: mns
       packageName: keyboard-mns
       kbdgenFolder: "mns.kbdgen"
-      repositoryWin: "https://pahkat.uit.no/repo/windows"
-      repositoryMac: "https://pahkat.uit.no/repo/macos"
+      repositoryWin: "https://pahkat.uit.no/repo/misc-win"
+      repositoryMac: "https://pahkat.uit.no/repo/misc-macos"
       languages:
         - projectjjName: giella-mns
           path: usr/share/giella/mobilespellers/mns-mobile.zhfst
