@@ -1,5 +1,5 @@
 displayNames:
-  mns: Ма̄ньщи
+  mns: Ма̄ньси
   en: Mansi
 modes:
   android:
@@ -122,4 +122,4 @@ space:
 targets:
   win:
     locale: mns-Cyrl
-    languageName: Ма̄ньщи
+    languageName: Ма̄ньси
