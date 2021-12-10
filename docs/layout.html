@@ -1,57 +1,16 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <title>Layout(s) for the Mansi Keyboards</title>
-</head>
-<body>
-    <p><strong>Legend:</strong></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Mode</th>
-          <th>Standard</th>
-          <th>Dead</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-            <th>Default</th>
-            <td>black</td>
-            <td>green</td>
-        </tr>
-        <tr>
-            <th>AltGr/Option</th>
-            <td>red</td>
-            <td>orange</td>
-        </tr>
-        <tr>
-            <th>Caps Lock (Mode Switch)</th>
-            <td>blue</td>
-            <td>pink</td>
-        </tr>
-        <tr>
-            <th>Caps Lock + AltGr/Option:</th>
-            <td>purple</td>
-            <td>green</td>
-        </tr>
-      </tbody>
-    </table>
-    <h2>Манси (macOS)</h2>
-    <object type="image/svg+xml"data="mns-mac.svg" width="960" height="320"></object><br>
-    <h2>Манси (Windows)</h2>
-    <object type="image/svg+xml"data="mns-win.svg" width="960" height="320"></object><br>
-    <script>
-        "use strict";
+**Legend:**
 
-        var i, ii, nodes, node;
+| Mode                      | Standard | Dead   |
+|---------------------------|----------|--------|
+| Default                   | black    | green  |
+| AltGr/Option              | red      | orange |
+| Caps Lock (Mode Switch)   | blue     | pink   |
+| Caps Lock + AltGr/Option: | purple   | green  |
 
-        nodes = document.querySelectorAll(".key-dead");
-        for (i = 0, ii = nodes.length; i < ii; ++i) {
-            nodes[i].addEventListener('click', function(e) {
-                console.log(this);
-            }, false);
-        }
-    </script>
-</body>
-</html>
+## Манси (macOS)
+
+  
+
+## Манси (Windows)
+
+  
