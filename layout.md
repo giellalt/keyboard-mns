@@ -8,10 +8,10 @@
 |**Deadkey** | green   | orange       | pink                    | green                    |
 
 
-## Манси (macOS)
+# Манси (macOS)
 
   
 
-## Манси (Windows)
+# Манси (Windows)
 
   
