@@ -24,8 +24,8 @@
 # third field is email address for bug reports
 # fourth field is the name of the package made by make dist, excluding .tar.gz
 # fifth field is the project web address
-AC_INIT([giellakeyboards-__UND__], [20130628], [feedback@divvun.no],
-        [giellakeyboards-__UND__], [http://divvun.no])
+AC_INIT([giellakeyboards-mns], [20130628], [feedback@divvun.no],
+        [giellakeyboards-mns], [http://divvun.no])
 # AC_REVISION is used to get SVN revision into bug reports
 AC_REVISION([$Revision$])
 # These configuration dirs hide some extra cruft
@@ -42,7 +42,7 @@ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 # GTLANG is the language code used to identify this project; it should be same
 # as the directory name in gtsvn and same as ISO 639 three-letter code for the
 # language if possible
-AC_SUBST([GTLANG], [__UND__])
+AC_SUBST([GTLANG], [mns])
 
 # GTLANG2 is the shortest unambiguous language code for this project; it
 # should be the ISO 639-1 two-letter code if possible, otherwise usually same
