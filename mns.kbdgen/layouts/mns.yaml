@@ -1,5 +1,6 @@
 displayNames:
   mns: Ма̄ньси
+  ru: Манси́йский язык
   en: Mansi
 android:
   primary:
@@ -266,4 +267,3 @@ longpress:
 keyNames:
   space: хал
   return: ёлы о̄выл
-
