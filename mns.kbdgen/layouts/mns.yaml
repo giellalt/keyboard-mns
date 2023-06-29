@@ -170,7 +170,7 @@ macOS:
 
 windows:
   config:
-    locale: mns-Cyrl
+    locale: mns-Cyrl-RU
     languageName: Ма̄ньси
   primary:
     layers:
