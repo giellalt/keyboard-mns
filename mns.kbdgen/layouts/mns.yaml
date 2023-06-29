@@ -2,6 +2,7 @@ displayNames:
   mns: Ма̄ньси
   ru: Манси́йский язык
   en: Mansi
+
 android:
   primary:
     layers:
@@ -23,6 +24,7 @@ android:
         Й Ц У К Е Н Г Ӈ Щ З Х
         Ф Ы В А П Р О Л Д Ж Э
         \s{shift} Я Ч С М И Т Ь Б Ю \s{backspace}
+
 iOS:
   primary:
     layers:
@@ -97,6 +99,7 @@ iOS:
         \s{spacer:1.5}  [ ] { } # % ^ * + = \ | ~ 
         \s{spacer:1.75} - / : ; ( ) kr & @ $ £     \s{return:1.75}
         \s{spacer:3.25} … . , ? ! ' " _ €          \s{spacer:2.25}
+
 macOS:
   primary:
     layers:
@@ -164,6 +167,7 @@ macOS:
     alt: \u{A0}
     alt+shift: \u{A0}
     alt+caps: \u{A0}
+
 windows:
   config:
     locale: mns-Cyrl
@@ -205,6 +209,7 @@ windows:
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
         \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{1C}
         \u{1C} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0} \u{0}
+
 chromeOS:
   primary:
     layers:
@@ -238,6 +243,7 @@ chromeOS:
         Ў Ӱ Ӯ Қ Е̄ Ӈ Ң ≤ ≥ ʼ Ҳ Ъ
         Ә Ы̄ Ӓ А̄ Ӑ Ӧ О̄ Ӆ ˮ Ӭ Э̄ Ё̄
         Ӛ Я̄ Ӫ Ө Ӑ Ӣ Є̈ Є Ю̆ Ю̄ :
+
 longpress:
   А: А̄
   Е: Е̄ Ё Ё̄
@@ -264,6 +270,7 @@ longpress:
   ю: ю̄
   я: я̄
   ь: ъ
+
 keyNames:
   space: хал
   return: ёлы о̄выл
