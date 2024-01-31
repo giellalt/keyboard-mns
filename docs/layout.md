@@ -10,8 +10,9 @@
 
 # Манси (macOS)
 
-  
+![](mns-mac.svg)  
 
 # Манси (Windows)
 
+![](mns-win.svg)  
   
