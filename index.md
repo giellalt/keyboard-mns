@@ -7,4 +7,4 @@
 
 # Other information
 
-Add text and links as necessary.
+Keyboard may be downloaded via Divvun installer.
