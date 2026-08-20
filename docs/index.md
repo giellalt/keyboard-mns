@@ -1,10 +1,9 @@
 # Documentation for the Mansi keyboards
 
+## Layouts
 
-# Layouts
+- [Layout overview](layout.md)
 
--   [Layout overview](layout.html)
-
-# Other information
+## Other information
 
 Keyboard may be downloaded via Divvun installer.
